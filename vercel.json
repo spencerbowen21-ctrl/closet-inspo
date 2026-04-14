@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "buildCommand": "echo 'Skipping frontend build — serving API only. Static site is on GitHub Pages.'",
+  "outputDirectory": "public",
+  "installCommand": "echo 'Skipping npm install — no frontend dependencies needed for API-only build.'",
+  "functions": {
+    "api/generate.js": {
+      "maxDuration": 120
+    }
+  }
+}
